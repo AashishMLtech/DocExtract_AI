@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: docextract-ai
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run src/document_extractor/app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: qwen/qwen3.6-27b
+      - key: MAX_FILE_SIZE_MB
+        value: "10"
+      - key: MAX_PDF_PAGES
+        value: "10"
+      - key: MAX_VISION_PAGES
+        value: "5"
+      - key: MAX_IMAGE_DIMENSION
+        value: "1024"
+      - key: API_TIMEOUT_SECONDS
+        value: "30"
+      - key: MAX_RETRIES
+        value: "1"
+      - key: MAX_COMPLETION_TOKENS
+        value: "1200"
+      - key: MONEY_TOLERANCE
+        value: "0.01"
+      - key: TEXT_QUALITY_THRESHOLD
+        value: "0.35"
