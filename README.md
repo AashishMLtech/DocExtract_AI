@@ -82,15 +82,20 @@ The repository includes example layouts for:
 - receipt
 - purchase order
 
-Recommended sample files for testing:
-- `docustruct_polished_invoice_test.pdf`
-- `docustruct_purchase_order_layout_c.txt`
+Downloadable sample files in `samples/`:
+- [`samples/docustruct_polished_invoice_test.pdf`](samples/docustruct_polished_invoice_test.pdf)
+- [`samples/docustruct_purchase_order_layout_c.txt`](samples/docustruct_purchase_order_layout_c.txt)
+- [`samples/Advanced Document Data Extractor.pdf`](samples/Advanced Document Data Extractor.pdf)
+
+Recommended files for testing:
+- [`samples/docustruct_polished_invoice_test.pdf`](samples/docustruct_polished_invoice_test.pdf)
+- [`samples/docustruct_purchase_order_layout_c.txt`](samples/docustruct_purchase_order_layout_c.txt)
 
 Reference/documentation PDF used during development:
-- `Advanced Document Data Extractor.pdf`
+- [`samples/Advanced Document Data Extractor.pdf`](samples/Advanced Document Data Extractor.pdf)
 
 ## Expected Output
-Each sample document has a matching JSON file in `expected_outputs/`. These files are intended to reflect the finished application’s output for the bundled sample documents.
+Each sample document has a matching JSON file in `expected_outputs/`. These files are intended to reflect the finished application's output for the bundled sample documents.
 
 ## Validation Logic
 Dates are normalized only when they are unambiguous. Monetary values use `Decimal` so arithmetic stays precise. Line items are validated with local math checks, and subtotal or grand-total reconciliation only runs when enough fields are available to make the check meaningful.
@@ -114,4 +119,4 @@ This implementation favors reliability, validation, and cost control over maximu
 The project does not claim perfect accuracy and never invents missing values to force a complete schema.
 
 ## Deployment
-For hosted deployments, store `GROQ_API_KEY` in the platform’s secret manager or environment settings. Do not commit credentials to the repository.
+For hosted deployments, store `GROQ_API_KEY` in the platform's secret manager or environment settings. Do not commit credentials to the repository.
