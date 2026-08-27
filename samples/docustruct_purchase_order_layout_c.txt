@@ -1,0 +1,37 @@
+NORTHSTAR OFFICE SUPPLIES
+Purchase Order
+PO NO: NS-PO-2048
+Order Date: 22-08-2026
+Requested Delivery: 29-08-2026
+Supplier: Brightline Business Products Pvt. Ltd.
+Currency: INR
+
+Ship To
+Acme Analytics India Pvt. Ltd.
+5th Floor, Orion Business Park
+Bengaluru 560103
+
+ITEM DETAILS
+--------------------------------------------------------------------------------
+Item / Description                         Qty       Unit Price       Line Total
+--------------------------------------------------------------------------------
+Ergonomic Keyboard - MK2                    4         1850.00          7400.00
+Wireless Mouse - Pro                        5          920.00          4600.00
+USB-C Docking Station                       2         4250.00          8500.00
+A4 Copy Paper, 500 sheets                   6          310.00          1860.00
+--------------------------------------------------------------------------------
+
+                                               Subtotal:       22,360.00
+                                               Discount:          360.00
+                                               Shipping:          500.00
+                                               Tax (18%):       4,050.00
+                                               GRAND TOTAL:    26,550.00
+
+Payment Terms: Net 30 days
+Buyer Reference: FIN-APR-26
+Contact: procurement@northstaroffice.example
+
+Notes:
+- Please include PO number NS-PO-2048 on all delivery documents.
+- Deliver complete quantities shown above.
+- This purchase order is generated electronically and does not require a signature.
