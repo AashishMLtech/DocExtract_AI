@@ -82,6 +82,13 @@ The repository includes example layouts for:
 - receipt
 - purchase order
 
+Recommended sample files for testing:
+- `docustruct_polished_invoice_test.pdf`
+- `docustruct_purchase_order_layout_c.txt`
+
+Reference/documentation PDF used during development:
+- `Advanced Document Data Extractor.pdf`
+
 ## Expected Output
 Each sample document has a matching JSON file in `expected_outputs/`. These files are intended to reflect the finished application’s output for the bundled sample documents.
 
