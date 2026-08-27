@@ -120,3 +120,7 @@ The project does not claim perfect accuracy and never invents missing values to 
 
 ## Deployment
 For hosted deployments, store `GROQ_API_KEY` in the platform's secret manager or environment settings. Do not commit credentials to the repository.
+
+## Live Deployment
+You can try the live app here:
+- [https://docextract-ai-fh8d.onrender.com/](https://docextract-ai-fh8d.onrender.com/)
