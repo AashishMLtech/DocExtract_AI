@@ -1,0 +1,15 @@
+{
+  "document_type": "invoice",
+  "vendor_name": "ACME SUPPLIES",
+  "date": "2026-08-27",
+  "invoice_id": "INV-1001",
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": "80.00",
+  "discount": null,
+  "shipping_amount": null,
+  "tax_amount": "8.00",
+  "total_amount": "88.00",
+  "overall_confidence": 0.92,
+  "warnings": []
+}

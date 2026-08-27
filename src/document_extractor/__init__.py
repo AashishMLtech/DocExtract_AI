@@ -1,0 +1,1 @@
+"""Document Data Extractor package."""

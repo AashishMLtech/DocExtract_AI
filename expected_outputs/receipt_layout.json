@@ -1,0 +1,15 @@
+{
+  "document_type": "receipt",
+  "vendor_name": "CITY MART",
+  "date": "2026-08-27",
+  "invoice_id": null,
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": null,
+  "discount": null,
+  "shipping_amount": null,
+  "tax_amount": "0.90",
+  "total_amount": "9.90",
+  "overall_confidence": 0.9,
+  "warnings": []
+}
